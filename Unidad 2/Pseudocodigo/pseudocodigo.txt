@@ -1,0 +1,18 @@
+/*
+Mi primer pseudocodigo
+Diego Garcia
+ITPA
+TICS
+
+Programa que imprime un nombre que capturamos
+
+/*
+
+Algoritmo ImprimirNombre;
+VAR
+	CARACTER minombre;
+INICIO
+	ESCRIBIR("¿Cuál es mi nombre?");
+	LEER (minombre);
+	ESCRIBIR(minombre);
+FIN
