@@ -1,0 +1,33 @@
+/*
+Mi primer pseudocodigo
+Diego Garcia
+ITPA / TICS
+
+Programa 1: Programa que te pida las calificaciones y las imprima en un renglón
+
+/*
+
+ALGORITMO ImprimirCalificacion;
+
+VAR 
+	INT calif1;
+	INT calif2;
+	INT calif3;
+	INT calif4;
+	INT calif5;
+
+INICIO
+	ESCRIBIR("Escribir la calificacion 1");
+	LEER(calif1);
+	ESCRIBIR("Escribir la calificacion 2");
+	LEER(calif2);
+	ESCRIBIR("Escribir la calificacion 3");
+	LEER(calif3);
+	ESCRIBIR("Escribir la calificacion 4");
+	LEER(calif4);
+	ESCRIBIR("Escribir la calificacion 5");
+	LEER(calif5);
+	
+	ESCRIBIR("Las calificaciones son:", calif1, calif2, calif3, calif4, calif5);
+
+FIN

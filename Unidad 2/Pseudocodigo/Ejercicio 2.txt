@@ -1,0 +1,31 @@
+/*
+
+Programa 2: Programa que te pida las calificaciones y que te de el promedio.
+
+/*
+
+ALGORITMO ImprimirPromedio;
+
+VAR 
+	INT calif1;
+	INT calif2;
+	INT calif3;
+	INT calif4;
+	INT calif5;
+	INT promedio;
+
+INICIO
+	ESCRIBIR("Escribir la calificacion 1");
+	LEER(calif1);
+	ESCRIBIR("Escribir la calificacion 2");
+	LEER(calif2);
+	ESCRIBIR("Escribir la calificacion 3");
+	LEER(calif3);
+	ESCRIBIR("Escribir la calificacion 4");
+	LEER(calif4);
+	ESCRIBIR("Escribir la calificacion 5");
+	LEER(calif5);
+	promedio = calif1 + calif2 + calif3 + calif4 + calif5 / 5;
+	ESCRIBIR("El promedio de las calificaciones es:",promedio);
+
+	FIN

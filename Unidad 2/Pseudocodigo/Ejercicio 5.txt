@@ -1,0 +1,28 @@
+/*
+
+Programa 5: Programa que  te pida dos números y te imprima el mayor.
+
+/*
+
+ALGORITMO ImprimirNumeroMayor;
+
+VAR
+    INT numero1;
+    INT numero2;
+    INT mayor;
+
+
+INICIO
+    ESCRIBIR("Ingresa el primer numero: ");
+    LEER(numero1);
+    ESCRIBIR("Ingresa el segundo numero: ");
+    LEER(numero2);
+
+IF numero1 > numero2;
+    LEER (mayor);
+    ESCRIBIR("El numero mayor es: ", mayor)
+
+ELSE numero1 < numero2;
+    ESCRIBIR ("El numero no es mayor");
+
+FIN

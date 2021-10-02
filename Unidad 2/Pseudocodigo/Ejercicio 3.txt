@@ -1,0 +1,20 @@
+/*
+
+Programa 3: Programa que pida un numero y te de su cuadrado (usando una función).
+
+/*
+
+ALGORITMO ImprimirCuadrado;
+
+VAR
+	INT num;
+	INT sqr;
+
+INICIO
+	ESCRIBIR("Ingresa el numero");
+	LEER(num);
+	cuadrado = num * num;
+	
+	ESCRIBIR("El numero al cuadrado es:",sqr);
+
+FIN
