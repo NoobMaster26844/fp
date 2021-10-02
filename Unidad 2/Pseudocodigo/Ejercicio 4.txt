@@ -4,23 +4,24 @@ Programa 4: Programa que te pida tu nombre y apellidos por separado y que los im
 
 /*
 
-ALGORITMO ImprimirNombre;
+ALGORITMO ImprimirNombreCompleto;
 
 CONST
-	CHAR nombre1;
-	CHAR nombre2;
-	CHAR apellido1;
-	CHAR apellido2;
+	CHAR nom1;
+	CHAR nom2;
+	CHAR ape1;
+	CHAR ape2;
 
 INICIO
-	ESCRIBIR("Escribir tu primer nombre");
-	LEER(nombre1);
-	ESCRIBIR("Escribir tu segundo nombre");
-	LEER(nombre2);
-	ESCRIBIR("Escribir tu primer apellido");
-	LEER(apellido1);
-	ESCRIBIR("Escribir tu segundo apellido");
-	LEER(apellido2);
-	ESCRIBIR("Tu nombre es:" nombre1, nombre2, apellido1, apellido2);
+	ESCRIBIR("Escribe tu primer nombre:");
+	LEER(nom1);
+	ESCRIBIR("Escribe tu segundo nombre:");
+	LEER(nom2);
+	ESCRIBIR("Escribe tu primer apellido:");
+	LEER(ape1);
+	ESCRIBIR("Escribe tu segundo apellido:");
+	LEER(ape2);
+
+	ESCRIBIR("Tu nombre completo es:" nom1, nom2, ape1, ape2);
 
 FIN
