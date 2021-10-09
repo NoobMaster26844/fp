@@ -1,0 +1,17 @@
+/*
+
+Programa 3: Programa que te pida un número y se imprima su nombre la cantidad de veces del número.
+
+/*
+
+ALGORITMO Imprimir_Nombre_Del_Numero;
+
+VAR 
+	INT (x);
+
+INICIO
+	ESCRIBIR("Ingresa un numero");
+	LEER(x);
+	ESCRIBIR(x)*(x);
+
+FIN

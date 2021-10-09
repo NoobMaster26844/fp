@@ -1,0 +1,30 @@
+/*
+
+Programa 5: Programa que pida nombre y edad y que imprima la persona más grande.
+
+/*
+
+ALGORITMO Persona_Mayor;
+
+VAR
+	CHAR nombre1;
+	CHAR nombre2;
+	INT edad1;
+	INT edad2;
+
+INICIO
+	ESCRIBIR("Escribe el primer nombre");
+	LEER(nombre1);
+	ESCRIBE("Ingresa la edad");
+	LEER(edad1);
+	ESCRIBIR("Escribe el segundo nombre");
+	LEER(nombre2);
+	ESCRIBIR("Ingresa la edad");
+	LEER(edad2);
+
+IF (edad1) > (edad2);
+	ESCRIBIR("El mayor es: ", nombre1, edad1);
+ELSE IF (edad1) < (edad2);
+	ESCRIBIR("El mayor es: ", nombre2, edad2);
+
+FIN

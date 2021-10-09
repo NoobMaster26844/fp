@@ -1,0 +1,38 @@
+/*
+
+Programa 2: Programa que te de 5 opciones de peliculas y al momento de seleccionar una te imprima el nombre de la película.
+
+/*
+
+ALGORITMO Peliculas;
+
+VAR
+	CHAR pelicula1;
+	CHAR pelicula2;
+	CHAR pelicula3;
+	CHAR pelicula4;
+	CHAR pelicula5;
+	INT PS;
+
+CONST
+	CONST Pelicula1 = Harry Potter y la piedra filosofal;
+	CONST Pelicula2 = Harry Potter y la camara secreta;
+	CONST Pelicula3 = Harry Potter y el prisionero de askaban;
+	CONST Pelicula4 = Harry Potter y el caliz de fuego;
+	CONST Pelicula5 = Harry Potter y la orden del fenix;
+
+ARRAY
+	Peliculas (pelicula1, pelicula2, pelicula3, pelicula4, pelicula5);
+
+INICIO
+	ESCRIBIR("0 = Harry Potter y la piedra filosofal
+			1= Harry Potter y la camara secreta
+			2= Harry Potter y el prisionero de askaban
+			3= Harry Potter y el caliz de fuego
+			4= Harry Potter y la orden del fenix");
+
+	ESCRIBIR ("Selecciona el numero de la pelicula");
+	LEER(PS);
+	IMPRIMIR Peliculas [PS];
+
+FIN

@@ -1,0 +1,33 @@
+/*
+
+Programa 4: Programa que  pida calificaciones y que muestre si está aprobado o reprobado el alumno.
+
+/*
+
+ALGORITMO Aprobados_Y_Reprobados;
+
+VAR
+	CHAR nombre;
+	CHAR apellido;
+	FLOAT calif1;
+	FLOAT calif2;
+	FLOAT calif3;
+
+INICIO
+	ESCRIBIR("Escribe el nombre");
+	LEER(nombre);
+	ESCRIBIR("Escribe el apellido");
+	LEER(apellido);
+	ESCRIBIR("Ingresar la primera calificación");
+	LEER(calif1);
+	ESCRIBIR("Ingresar la segunda calificación");
+	LEER(calif2);
+	ESCRIBIR("Ingresar la tercera calificación");
+	LEER(calif3);
+
+IF (calif1 + calif2 + calif3 / 3) > 6.9
+	Escribir(nombre, apellido,"Aprobado");
+ELSE IF (calif1 + calif2 + calif /3) < 7
+	Escribir (nombre, apellido, "Reprobado");
+
+FIN
