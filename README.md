@@ -62,3 +62,24 @@ Exactamente ==;
 
 *Constructores* :
 Un constructor es una subrutina cuya misión es inicializar un objeto de una clase. En el constructor se asignan los valoresiniciales del nuevo objeto.
+
+*Clase* : Es una construcción que permite crear tipos personalizados propios mediante la agrupación de variables de otros tipos, métodos y eventos. Una clase es como un plano. Define los datos y el comportamiento de un tipo. Si la clase no se declara como estática, el código de cliente puede utilizarla mediante la creación de objetos o instancias que se asignan a una variable.
+
+*Ejemplos de clase* :
+Class. Public: Son muy comunes, accesibles desde cualquier otra clase en la misma librería (de otro modo hay que importarlas).
+Class. Abstract: Aquellas que tienen por lo menos un método abstracto. No implementan sus métodos, sino que dan las bases para que sean implementados en la herencia.
+Class. Final: Son las que terminan la cadena de herencia. Útiles por motivos de seguridad y eficiencia de un programa, ya que no permiten crear más sub-divisiones por debajo de esta clase.
+
+*Objeto* : Es un ente abstracto usado en programación que permite separar los diferentes componentes de un programa, simplificando así su elaboración, depuración y posteriores mejoras.
+A los objetos se les otorga ciertas características en la vida real. Cada parte del programa que se desea realizar es tratado como objeto, siendo así estas partes independientes las unas de las otras.Los objetos se componen de 3 partes fundamentales: metodos, eventos y atributos.
+
+*Ejemplos de objeto* :
+ a) Un coche
+Sus atributos son su color, marca, modelo, número de matrícula, número de puertas.
+Su función es llevar a una persona del punto A al punto B de una manera más rápida y sencilla.
+ b) Una mesa
+Sus atributos son su color, su tamaño, numero de patas, material.
+Su función es tener un lugar donde poner demás objetos.
+ c) Una silla
+Sus atributos son su color, material, numero de patas, tamaño.
+Su función es permitir que las personas se sienten sobre el, ya sea para descansar o para trabajar.
