@@ -109,10 +109,15 @@ sqr (x);
 
 Algoritmo PrimerPseudocodigo;
 
-// Pedir un nombre y lo imprime. Tambien imprimir el nombre del tec
+// Pedir un nombre y lo imprime
 
-VAR
-	MiNombre;
 
-CONS
-	nombreTEC -> ITPA
+## Propiedades de POO
+
+Herencia: Permite "Heredar" atributos de otras clases
+
+Abstracción: Nos permite crear clases generales que posteriormente pueden ser heredados
+
+Encapsulamiento: Nos permite proteger propiedades de otras clases
+
+Poliformismo: Es cuando diferentes clases pueden acceder a un mismo método
